@@ -1,0 +1,30 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 90vw;
+  height: 80vh;
+  gap: 20px;
+  display: flex;
+}
+.card {
+  width: 9%;
+  height: 80vh;
+  border-radius: 50px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 1s ease-in-out;
+}
+img {
+  height: 100%;
+  cursor: pointer;
+  border-radius: 50px;
+}
+.basis {
+  width: 100%;
+}
